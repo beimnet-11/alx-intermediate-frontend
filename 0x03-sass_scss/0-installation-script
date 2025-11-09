@@ -1,0 +1,20 @@
+# 1. Install Node Version Manager (NVM)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# 2. Exit and reopen terminal
+exit
+# reopen terminal
+
+# 3. Install Node.js version 20.16
+nvm install 20.16
+nvm use 20.16
+
+# 4. Verify Node.js and npm
+node -v
+npm -v
+
+# 5. Install SASS
+npm install sass -v 3.7.4
+
+# 6. Verify SASS
+sass --version
