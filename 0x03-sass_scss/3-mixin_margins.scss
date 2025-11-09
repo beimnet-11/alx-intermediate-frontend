@@ -1,0 +1,17 @@
+// 3-mixin_margins.scss
+
+// Define a mixin for horizontal margins
+@mixin horizontal-margin($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+// Apply mixin to body
+body {
+  @include horizontal-margin(10px, 10px);
+}
+
+// Apply mixin to div
+div {
+  @include horizontal-margin(15px, 15px);
+}
