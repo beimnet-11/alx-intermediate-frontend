@@ -1,0 +1,14 @@
+1. Creating a Sass File to Output Debug Message 'Hello World
+mandatory
+Instruction:
+
+Write a Sass file that prints Hello world in the debug output.
+guillaume@ubuntu:~/$ sass 0-debug_log.scss | head -n 0
+0-debug_log.scss:2 DEBUG: Hello world
+
+guillaume@ubuntu:~/$ 
+Repo:
+
+GitHub repository: alx-intermediate-frontend
+Directory: 0x03-sass_scss
+File: 0-debug_log.scss
